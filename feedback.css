@@ -1,0 +1,131 @@
+/*style.css */
+@import url( 
+'https://fonts.googleapis.com/css2?family=Poppins&display=swap'); 
+
+body { 
+	margin: 0; 
+	display: flex; 
+	align-items: center; 
+	justify-content: space-around; 
+	flex-direction: column; 
+	height: 100vh; 
+	background-color: #d2d7df; 
+	font-family: 'Poppins', sans-serif; 
+
+} 
+
+.textup { 
+	text-align: center; 
+	color: rgb(23, 26, 22); 
+	font-weight: 700; 
+} 
+
+i { 
+	margin-right: 3px; 
+} 
+
+.form-box { 
+	background-color: #fff; 
+	box-shadow: 0 0 10px rgba(18, 21, 18, 0.8); 
+	padding: 15px; 
+	border-radius: 8px; 
+	width: 500px; 
+} 
+
+form { 
+	max-width: 400px; 
+	margin: 0 auto; 
+} 
+
+.radio-group { 
+	display: flex; 
+	margin-bottom: 16px; 
+} 
+
+input[type="radio"] { 
+	margin-right: 8px; 
+} 
+
+label { 
+	display: block; 
+	margin-bottom: 8px; 
+	font-size: 17px; 
+	color: rgb(30, 33, 30); 
+	font-weight: 600; 
+} 
+
+input, 
+textarea { 
+	width: 100%; 
+	padding: 8px; 
+	margin-bottom: 12px; 
+	box-sizing: border-box; 
+	border-radius: 10px; 
+
+} 
+
+.btn { 
+	padding: 10px 60px;
+	background-color: #111312; 
+	color: #fff; 
+	padding: 10px; 
+	border: 0; 
+	border-radius: 25px; 
+	cursor: pointer; 
+	width: 100%; 
+	font-size: 15px; 
+	transition: .2s linear; 
+} 
+
+.btn:hover { 
+	background-color: #0e100e; 
+	border: none; 
+	transform: translateY(-10px); 
+} 
+
+.popup{
+	width:400px;
+	background: #f0e9e9;
+	border-radius: 6px;
+	position: absolute;
+	top:50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	text-align: center;
+	padding: 0 30px 30px;
+	color:#333;
+}
+.open-popup{
+    visibility: visible;
+    top:50%;
+    transform: translate(-50%,-50%) scale(1);
+
+}
+.popup img{
+	width: 100px;
+	margin-top: -50px;
+	border-radius: 50%;
+	box-shadow: 0 2px 5px (0, 0,0,0.2);
+}
+.popup h2{
+	font-size: 38px;
+	font-weight: 500;
+	margin: 30px 0 10px;
+}
+.popup  button{
+	width: 100;
+	margin-top: 50%;
+	padding: 10px 0;
+	background: #6fd649;
+	color:#fff;
+	border: 0;
+	outline: none;
+	font-size: 18px;
+	border-radius: 4px;
+	cursor: pointer;
+	box-shadow: 0 5px 5px rgbs(0, 0,0,0.2);
+
+}
+h1 { 
+	color: rgb(27, 12, 198); 
+}
